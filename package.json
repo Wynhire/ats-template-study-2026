@@ -1,0 +1,19 @@
+{
+  "name": "ats-template-study-2026",
+  "version": "1.0.0",
+  "description": "Reproducible ATS extraction study: 29 resume templates rendered to PDF, text-extracted, and compared token by token with the source resume.",
+  "author": "Wynhire",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "study": "node src/measure.mjs",
+    "test": "node src/selftest.mjs"
+  },
+  "dependencies": {
+    "unpdf": "1.7.0"
+  }
+}

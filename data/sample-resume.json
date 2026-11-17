@@ -1,0 +1,175 @@
+{
+  "basics": {
+    "name": "Jordan Avery",
+    "headline": "Senior Product Manager",
+    "email": "jordan.avery@example.com",
+    "phone": "(555) 014-2368",
+    "location": "Austin, TX",
+    "links": [
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/jordanavery"
+      },
+      {
+        "label": "Portfolio",
+        "url": "https://jordanavery.dev"
+      }
+    ]
+  },
+  "summary": "Product manager with 8+ years shipping B2B SaaS products. Led cross-functional teams of up to 14 and grew activation 32% year over year.",
+  "sections": [
+    {
+      "id": "experience",
+      "type": "experience",
+      "title": "Work Experience",
+      "entries": [
+        {
+          "role": "Senior Product Manager",
+          "company": "Northbeam Analytics",
+          "location": "Austin, TX",
+          "startDate": "2022-03",
+          "current": true,
+          "bullets": [
+            "Own the attribution product line ($6M ARR) across a squad of 9 engineers and 2 designers",
+            "Shipped self-serve onboarding that lifted trial-to-paid conversion from 11% to **17%** in two quarters",
+            "Drove the migration to usage-based pricing, adding **$2.4M ARR** with churn flat"
+          ]
+        },
+        {
+          "role": "Product Manager",
+          "company": "Relay Commerce",
+          "location": "Remote",
+          "startDate": "2019-06",
+          "endDate": "2022-02",
+          "bullets": [
+            "Launched the returns automation module used by 1,200+ merchants within the first year",
+            "Cut median support resolution time by 41% by shipping an in-app diagnostics flow"
+          ]
+        },
+        {
+          "role": "Associate Product Manager",
+          "company": "Brightpath Software",
+          "location": "Denver, CO",
+          "startDate": "2017-01",
+          "endDate": "2019-05",
+          "bullets": [
+            "Turned weekly discovery interviews into a prioritized roadmap adopted company-wide"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "education",
+      "type": "education",
+      "title": "Education",
+      "entries": [
+        {
+          "degree": "B.S. in Economics",
+          "institution": "University of Texas at Austin",
+          "location": "Austin, TX",
+          "startDate": "2012-08",
+          "endDate": "2016-05",
+          "bullets": [
+            "Graduated with honors, GPA 3.8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "skills",
+      "title": "Skills",
+      "groups": [
+        {
+          "name": "Product",
+          "items": [
+            "Roadmapping",
+            "A/B testing",
+            "Pricing strategy",
+            "User research"
+          ]
+        },
+        {
+          "name": "Tools",
+          "items": [
+            "SQL",
+            "Amplitude",
+            "Figma",
+            "Jira",
+            "Looker"
+          ]
+        },
+        {
+          "name": "",
+          "items": [
+            "Stakeholder management",
+            "Public speaking"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "projects",
+      "type": "projects",
+      "title": "Projects",
+      "entries": [
+        {
+          "name": "OpenMetrics",
+          "url": "https://github.com/jordanavery/openmetrics",
+          "bullets": [
+            "Open-source dashboard toolkit with 900+ GitHub stars"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "certifications",
+      "type": "certifications",
+      "title": "Certifications",
+      "entries": [
+        {
+          "name": "Certified Scrum Product Owner (CSPO)",
+          "issuer": "Scrum Alliance",
+          "date": "2020-09"
+        },
+        {
+          "name": "Google Analytics Individual Qualification"
+        }
+      ]
+    },
+    {
+      "id": "languages",
+      "type": "languages",
+      "title": "Languages",
+      "entries": [
+        {
+          "language": "English",
+          "level": "Native"
+        },
+        {
+          "language": "Spanish",
+          "level": "Professional working proficiency"
+        }
+      ]
+    },
+    {
+      "id": "volunteering",
+      "type": "custom",
+      "title": "Volunteering",
+      "entries": [
+        {
+          "title": "Mentor",
+          "subtitle": "Product School Austin",
+          "date": "2023-01",
+          "bullets": [
+            "Mentor early-career PMs through a 12-week program"
+          ]
+        },
+        {
+          "title": "Board Member, Neighborhood Association",
+          "bullets": []
+        }
+      ]
+    }
+  ]
+}

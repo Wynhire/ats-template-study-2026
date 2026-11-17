@@ -1,0 +1,263 @@
+[
+  {
+    "id": "metro",
+    "name": "Metro",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "slate",
+    "name": "Slate",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "signal",
+    "name": "Signal",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "nova",
+    "name": "Nova",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "aster",
+    "name": "Aster",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "verve",
+    "name": "Verve",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "axis",
+    "name": "Axis",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "onyx",
+    "name": "Onyx",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "cobalt",
+    "name": "Cobalt",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "crest",
+    "name": "Crest",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "summit",
+    "name": "Summit",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "basel",
+    "name": "Basel",
+    "family": "modern",
+    "badge": "ATS-Verified",
+    "layout": "modern-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "harlan",
+    "name": "Harlan",
+    "family": "heritage",
+    "badge": "ATS-Verified",
+    "layout": "classic-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "madison",
+    "name": "Madison",
+    "family": "heritage",
+    "badge": "ATS-Verified",
+    "layout": "classic-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "clarendon",
+    "name": "Clarendon",
+    "family": "heritage",
+    "badge": "ATS-Verified",
+    "layout": "classic-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "beacon",
+    "name": "Beacon",
+    "family": "heritage",
+    "badge": "ATS-Verified",
+    "layout": "classic-stack",
+    "sectionOrder": "education-first",
+    "dateStyle": null
+  },
+  {
+    "id": "tenure",
+    "name": "Tenure",
+    "family": "heritage",
+    "badge": "ATS-Verified",
+    "layout": "classic-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "regent",
+    "name": "Regent",
+    "family": "heritage",
+    "badge": "ATS-Verified",
+    "layout": "classic-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "sterling",
+    "name": "Sterling",
+    "family": "heritage",
+    "badge": "ATS-Verified",
+    "layout": "classic-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "kernel",
+    "name": "Kernel",
+    "family": "compact",
+    "badge": "ATS-Verified",
+    "layout": "compact-stack",
+    "sectionOrder": null,
+    "dateStyle": "MONTH_YEAR_SHORT"
+  },
+  {
+    "id": "vector",
+    "name": "Vector",
+    "family": "compact",
+    "badge": "ATS-Verified",
+    "layout": "compact-stack",
+    "sectionOrder": null,
+    "dateStyle": "MONTH_YEAR_SHORT"
+  },
+  {
+    "id": "stacker",
+    "name": "Stacker",
+    "family": "compact",
+    "badge": "ATS-Verified",
+    "layout": "compact-stack",
+    "sectionOrder": null,
+    "dateStyle": "MONTH_YEAR_SHORT"
+  },
+  {
+    "id": "ledger",
+    "name": "Ledger",
+    "family": "compact",
+    "badge": "ATS-Verified",
+    "layout": "compact-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "primer",
+    "name": "Primer",
+    "family": "compact",
+    "badge": "ATS-Verified",
+    "layout": "compact-stack",
+    "sectionOrder": "education-first",
+    "dateStyle": "MONTH_YEAR_SHORT"
+  },
+  {
+    "id": "mono",
+    "name": "Mono",
+    "family": "compact",
+    "badge": "ATS-Verified",
+    "layout": "compact-stack",
+    "sectionOrder": null,
+    "dateStyle": "MONTH_YEAR_SHORT"
+  },
+  {
+    "id": "studio",
+    "name": "Studio",
+    "family": "statement",
+    "badge": "Best for human review",
+    "layout": "split-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "panorama",
+    "name": "Panorama",
+    "family": "statement",
+    "badge": "Best for human review",
+    "layout": "split-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "duet",
+    "name": "Duet",
+    "family": "statement",
+    "badge": "Best for human review",
+    "layout": "split-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  },
+  {
+    "id": "atlas",
+    "name": "Atlas",
+    "family": "statement",
+    "badge": "Best for human review",
+    "layout": "split-stack",
+    "sectionOrder": null,
+    "dateStyle": null
+  }
+]

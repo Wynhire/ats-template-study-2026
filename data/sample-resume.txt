@@ -1,0 +1,45 @@
+Jordan Avery
+Senior Product Manager
+jordan.avery@example.com | (555) 014-2368 | Austin, TX
+LinkedIn: https://www.linkedin.com/in/jordanavery
+Portfolio: https://jordanavery.dev
+
+SUMMARY
+Product manager with 8+ years shipping B2B SaaS products. Led cross-functional teams of up to 14 and grew activation 32% year over year.
+
+WORK EXPERIENCE
+Senior Product Manager - Northbeam Analytics, Austin, TX (2022-03 - Present)
+- Own the attribution product line ($6M ARR) across a squad of 9 engineers and 2 designers
+- Shipped self-serve onboarding that lifted trial-to-paid conversion from 11% to 17% in two quarters
+- Drove the migration to usage-based pricing, adding $2.4M ARR with churn flat
+Product Manager - Relay Commerce, Remote (2019-06 - 2022-02)
+- Launched the returns automation module used by 1,200+ merchants within the first year
+- Cut median support resolution time by 41% by shipping an in-app diagnostics flow
+Associate Product Manager - Brightpath Software, Denver, CO (2017-01 - 2019-05)
+- Turned weekly discovery interviews into a prioritized roadmap adopted company-wide
+
+EDUCATION
+B.S. in Economics - University of Texas at Austin, Austin, TX (2012-08 - 2016-05)
+- Graduated with honors, GPA 3.8
+
+SKILLS
+Product: Roadmapping, A/B testing, Pricing strategy, User research
+Tools: SQL, Amplitude, Figma, Jira, Looker
+Stakeholder management, Public speaking
+
+PROJECTS
+OpenMetrics - https://github.com/jordanavery/openmetrics
+- Open-source dashboard toolkit with 900+ GitHub stars
+
+CERTIFICATIONS
+Certified Scrum Product Owner (CSPO) - Scrum Alliance (2020-09)
+Google Analytics Individual Qualification
+
+LANGUAGES
+English: Native
+Spanish: Professional working proficiency
+
+VOLUNTEERING
+Mentor - Product School Austin (2023-01)
+- Mentor early-career PMs through a 12-week program
+Board Member, Neighborhood Association
