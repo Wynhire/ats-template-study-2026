@@ -3,8 +3,8 @@ Senior Product Manager
 jordan.avery@example.com · (555) 014-2368 · Austin, TX · LinkedIn: www.linkedin.com/in/jordanavery ·
 Portfolio: jordanavery.dev
 SUMMARY
-Product manager with 8+ years shipping B2B SaaS products. Led cross-functional teams of up to 14 and grew
-activation 32% year over year.
+Product manager with 8+ years shipping B2B SaaS products from discovery to scale. Led cross-functional teams
+of up to 14, grew activation 32% year over year, and built pricing experiments that added $2.4M ARR.
 EDUCATION
 B.S. in Economics Aug 2012 – May 2016
 University of Texas at Austin
@@ -25,14 +25,14 @@ Remote
 Associate Product Manager Jan 2017 – May 2019
 Brightpath Software
 Denver, CO
-• Turned weekly discovery interviews into a prioritized roadmap adopted company-wide
+• Ran weekly discovery interviews and turned findings into a prioritized roadmap adopted company-wide
 SKILLS
 Product: Roadmapping, A/B testing, Pricing strategy, User research
 Tools: SQL, Amplitude, Figma, Jira, Looker
 Stakeholder management, Public speaking
 PROJECTS
 OpenMetricsgithub.com/jordanavery/openmetrics
-• Open-source dashboard toolkit with 900+ GitHub stars
+• Open-source dashboard toolkit with 900+ GitHub stars, maintained since 2021
 CERTIFICATIONS
 Certified Scrum Product Owner (CSPO) · Scrum Alliance (Sep 2020)
 Google Analytics Individual Qualification

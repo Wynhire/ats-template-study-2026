@@ -3,8 +3,8 @@ Senior Product Manager
 jordan.avery@example.com · (555) 014-2368 · Austin, TX · LinkedIn: www.linkedin.com/in/jordanavery ·
 Portfolio: jordanavery.dev
 SUMMARY
-Product manager with 8+ years shipping B2B SaaS products. Led cross-functional teams of up to 14 and grew activation
-32% year over year.
+Product manager with 8+ years shipping B2B SaaS products from discovery to scale. Led cross-functional teams of up to
+14, grew activation 32% year over year, and built pricing experiments that added $2.4M ARR.
 WORK EXPERIENCE
 Senior Product Manager March 2022 – Present
 Northbeam Analytics Austin, TX
@@ -22,16 +22,12 @@ the first year
 diagnostics flow
 Associate Product Manager January 2017 – May 2019
 Brightpath Software Denver, CO
-• Turned weekly discovery interviews into a prioritized roadmap adopted
-company-wide
+• Ran weekly discovery interviews and turned findings into a prioritized
+roadmap adopted company-wide
 EDUCATION
 B.S. in Economics August 2012 – May 2016
 University of Texas at Austin Austin, TX
 • Graduated with honors, GPA 3.8
-PROJECTS
-OpenMetrics
-github.com/jordanavery/openmetrics
-• Open-source dashboard toolkit with 900+ GitHub stars
 SKILLS
 Product: Roadmapping, A/B
 testing, Pricing strategy, User
@@ -50,6 +46,11 @@ LANGUAGES
 English · Native
 Spanish · Professional working
 proficiency
+PROJECTS
+OpenMetrics
+github.com/jordanavery/openmetrics
+• Open-source dashboard toolkit with 900+ GitHub stars, maintained since
+2021
 VOLUNTEERING
 Mentor January 2023
 Product School Austin

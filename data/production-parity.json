@@ -1,0 +1,658 @@
+{
+  "source": "Production parity code (checkResumeParity, expectedResumeText, reading-order) at the catalog's current revision, run on the 29 PDFs re-rendered on 2026-11-17 from the 2026-08-22 fixture",
+  "expected_tokens": 284,
+  "templates": [
+    {
+      "id": "metro",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "slate",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "signal",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "nova",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "aster",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "verve",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "axis",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "onyx",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "cobalt",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "crest",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "summit",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "basel",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "harlan",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "madison",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "clarendon",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "beacon",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Education",
+          "Work Experience",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "tenure",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "regent",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "sterling",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "kernel",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "vector",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.24",
+      "order_ok": true,
+      "missing_tokens": [
+        "https",
+        "openmetrics",
+        "github"
+      ]
+    },
+    {
+      "id": "stacker",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "ledger",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "primer",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Education",
+          "Work Experience",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.24",
+      "order_ok": true,
+      "missing_tokens": [
+        "https",
+        "openmetrics",
+        "github"
+      ]
+    },
+    {
+      "id": "mono",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Skills",
+          "Projects",
+          "Certifications",
+          "Languages",
+          "Volunteering"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.24",
+      "order_ok": true,
+      "missing_tokens": [
+        "https",
+        "openmetrics",
+        "github"
+      ]
+    },
+    {
+      "id": "studio",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Projects",
+          "Volunteering"
+        ],
+        [
+          "Skills",
+          "Certifications",
+          "Languages"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "panorama",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Projects",
+          "Volunteering"
+        ],
+        [
+          "Skills",
+          "Certifications",
+          "Languages"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "duet",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Projects",
+          "Volunteering"
+        ],
+        [
+          "Skills",
+          "Certifications",
+          "Languages"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    },
+    {
+      "id": "atlas",
+      "headingSequences": [
+        [
+          "Jordan Avery",
+          "Summary",
+          "Work Experience",
+          "Education",
+          "Projects",
+          "Volunteering"
+        ],
+        [
+          "Skills",
+          "Certifications",
+          "Languages"
+        ]
+      ],
+      "pages": 2,
+      "coverage_pct": "98.94",
+      "order_ok": true,
+      "missing_tokens": [
+        "https"
+      ]
+    }
+  ]
+}

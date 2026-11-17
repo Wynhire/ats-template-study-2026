@@ -16,7 +16,7 @@
       }
     ]
   },
-  "summary": "Product manager with 8+ years shipping B2B SaaS products. Led cross-functional teams of up to 14 and grew activation 32% year over year.",
+  "summary": "Product manager with 8+ years shipping B2B SaaS products from discovery to scale. Led cross-functional teams of up to 14, grew activation 32% year over year, and built pricing experiments that added $2.4M ARR.",
   "sections": [
     {
       "id": "experience",
@@ -53,7 +53,7 @@
           "startDate": "2017-01",
           "endDate": "2019-05",
           "bullets": [
-            "Turned weekly discovery interviews into a prioritized roadmap adopted company-wide"
+            "Ran weekly discovery interviews and turned findings into a prioritized roadmap adopted company-wide"
           ]
         }
       ]
@@ -117,7 +117,7 @@
           "name": "OpenMetrics",
           "url": "https://github.com/jordanavery/openmetrics",
           "bullets": [
-            "Open-source dashboard toolkit with 900+ GitHub stars"
+            "Open-source dashboard toolkit with 900+ GitHub stars, maintained since 2021"
           ]
         }
       ]

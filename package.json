@@ -10,7 +10,7 @@
     "node": ">=20"
   },
   "scripts": {
-    "study": "node src/measure.mjs",
+    "study": "node src/measure.mjs all",
     "test": "node src/selftest.mjs"
   },
   "dependencies": {

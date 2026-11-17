@@ -1,0 +1,560 @@
+{
+  "summary": {
+    "run": "latest-fixture",
+    "label": "current fixture (shortened 2026-08-23), gate run of 2026-10-16",
+    "threshold_pct": 95,
+    "conventions": {
+      "country": "US",
+      "dateStyle": "MONTH_YEAR"
+    },
+    "templates": 29,
+    "order_preserved": 29,
+    "passing": 29,
+    "expected_tokens": [
+      266
+    ],
+    "coverage_distribution": {
+      "98.87": [
+        "metro",
+        "slate",
+        "signal",
+        "nova",
+        "aster",
+        "verve",
+        "axis",
+        "onyx",
+        "cobalt",
+        "crest",
+        "summit",
+        "basel",
+        "harlan",
+        "madison",
+        "clarendon",
+        "beacon",
+        "tenure",
+        "regent",
+        "sterling",
+        "kernel",
+        "ledger",
+        "studio",
+        "panorama",
+        "duet",
+        "atlas"
+      ],
+      "98.12": [
+        "vector",
+        "stacker",
+        "primer",
+        "mono"
+      ]
+    },
+    "missing_token_vocabulary": [
+      "github",
+      "https",
+      "openmetrics"
+    ]
+  },
+  "results": [
+    {
+      "template": "metro",
+      "name": "Metro",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "slate",
+      "name": "Slate",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "signal",
+      "name": "Signal",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "nova",
+      "name": "Nova",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "aster",
+      "name": "Aster",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "verve",
+      "name": "Verve",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "axis",
+      "name": "Axis",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "onyx",
+      "name": "Onyx",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "cobalt",
+      "name": "Cobalt",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "crest",
+      "name": "Crest",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "summit",
+      "name": "Summit",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "basel",
+      "name": "Basel",
+      "family": "modern",
+      "badge": "ATS-Verified",
+      "layout": "modern-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "harlan",
+      "name": "Harlan",
+      "family": "heritage",
+      "badge": "ATS-Verified",
+      "layout": "classic-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "madison",
+      "name": "Madison",
+      "family": "heritage",
+      "badge": "ATS-Verified",
+      "layout": "classic-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "clarendon",
+      "name": "Clarendon",
+      "family": "heritage",
+      "badge": "ATS-Verified",
+      "layout": "classic-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "beacon",
+      "name": "Beacon",
+      "family": "heritage",
+      "badge": "ATS-Verified",
+      "layout": "classic-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "tenure",
+      "name": "Tenure",
+      "family": "heritage",
+      "badge": "ATS-Verified",
+      "layout": "classic-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "regent",
+      "name": "Regent",
+      "family": "heritage",
+      "badge": "ATS-Verified",
+      "layout": "classic-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "sterling",
+      "name": "Sterling",
+      "family": "heritage",
+      "badge": "ATS-Verified",
+      "layout": "classic-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "kernel",
+      "name": "Kernel",
+      "family": "compact",
+      "badge": "ATS-Verified",
+      "layout": "compact-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "vector",
+      "name": "Vector",
+      "family": "compact",
+      "badge": "ATS-Verified",
+      "layout": "compact-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 261,
+      "coverage_pct": 98.12,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https",
+        "openmetrics",
+        "github"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "stacker",
+      "name": "Stacker",
+      "family": "compact",
+      "badge": "ATS-Verified",
+      "layout": "compact-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 261,
+      "coverage_pct": 98.12,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https",
+        "openmetrics",
+        "github"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "ledger",
+      "name": "Ledger",
+      "family": "compact",
+      "badge": "ATS-Verified",
+      "layout": "compact-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "primer",
+      "name": "Primer",
+      "family": "compact",
+      "badge": "ATS-Verified",
+      "layout": "compact-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 261,
+      "coverage_pct": 98.12,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https",
+        "openmetrics",
+        "github"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "mono",
+      "name": "Mono",
+      "family": "compact",
+      "badge": "ATS-Verified",
+      "layout": "compact-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 261,
+      "coverage_pct": 98.12,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https",
+        "openmetrics",
+        "github"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "studio",
+      "name": "Studio",
+      "family": "statement",
+      "badge": "Best for human review",
+      "layout": "split-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "panorama",
+      "name": "Panorama",
+      "family": "statement",
+      "badge": "Best for human review",
+      "layout": "split-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "duet",
+      "name": "Duet",
+      "family": "statement",
+      "badge": "Best for human review",
+      "layout": "split-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    },
+    {
+      "template": "atlas",
+      "name": "Atlas",
+      "family": "statement",
+      "badge": "Best for human review",
+      "layout": "split-stack",
+      "pages": 2,
+      "expected_tokens": 266,
+      "matched_tokens": 263,
+      "coverage_pct": 98.87,
+      "order_preserved": true,
+      "order_failure": null,
+      "missing_tokens": [
+        "https"
+      ],
+      "passes_gate": true
+    }
+  ]
+}

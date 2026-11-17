@@ -9,54 +9,58 @@ render the same two-page sample resume to PDF with the production pipeline.
 The text layer of every PDF was extracted with [unpdf](https://github.com/unjs/unpdf)
 (pdf.js) and compared, token by token, with the canonical plain-text
 serialization of the source resume. Every template preserved its declared
-reading order (29/29) and cleared the 95 % coverage gate; the only tokens
-lost in extraction are URL fragments (the `https` scheme, and the project
-name fused with its URL in the four densest compact layouts). This repository
-ships the 29 PDFs, their extracted text, the source resume, the comparison
-script, and the per-template results, so the extraction and comparison steps
-can be re-run by anyone with Node.js.
+reading order (29/29) and cleared the 95 % coverage gate: 26 templates
+measured 98.94 % and the three densest compact templates 98.24 %. The only
+tokens lost in extraction are URL fragments. This repository ships the 29
+PDFs, their extracted text, the source resume, the comparison script and the
+per-template results, so the extraction and comparison steps can be re-run by
+anyone with Node.js.
 
-## Results (this repository, gate run of 2026-10-16)
+## Results
 
-Expected tokens per template: 266. Threshold: coverage strictly above 95 %
-and reading order intact. Reading order preserved: 29/29. Passing: 29/29.
+Sample resume: the 2026-08-22 fixture behind the published study
+(`data/sample-resume.json`), re-rendered through the production pipeline on
+2026-11-17. Expected tokens per template: 284. Threshold: coverage strictly
+above 95 % and reading order intact. Reading order preserved: 29/29.
+Passing: 29/29.
 
 | Template | Family | Badge | Token coverage | Matched | Order preserved | Missing tokens |
 |---|---|---|---|---|---|---|
-| Metro | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Slate | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Signal | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Nova | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Aster | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Verve | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Axis | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Onyx | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Cobalt | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Crest | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Summit | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Basel | Modern | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Harlan | Heritage | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Madison | Heritage | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Clarendon | Heritage | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Beacon | Heritage | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Tenure | Heritage | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Regent | Heritage | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Sterling | Heritage | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Kernel | Compact | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Vector | Compact | ATS-Verified | 98.12 % | 261/266 | Yes | https openmetrics github |
-| Stacker | Compact | ATS-Verified | 98.12 % | 261/266 | Yes | https openmetrics github |
-| Ledger | Compact | ATS-Verified | 98.87 % | 263/266 | Yes | https |
-| Primer | Compact | ATS-Verified | 98.12 % | 261/266 | Yes | https openmetrics github |
-| Mono | Compact | ATS-Verified | 98.12 % | 261/266 | Yes | https openmetrics github |
-| Studio | Statement | Best for human review | 98.87 % | 263/266 | Yes | https |
-| Panorama | Statement | Best for human review | 98.87 % | 263/266 | Yes | https |
-| Duet | Statement | Best for human review | 98.87 % | 263/266 | Yes | https |
-| Atlas | Statement | Best for human review | 98.87 % | 263/266 | Yes | https |
+| Metro | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Slate | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Signal | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Nova | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Aster | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Verve | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Axis | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Onyx | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Cobalt | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Crest | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Summit | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Basel | Modern | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Harlan | Heritage | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Madison | Heritage | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Clarendon | Heritage | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Beacon | Heritage | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Tenure | Heritage | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Regent | Heritage | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Sterling | Heritage | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Kernel | Compact | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Vector | Compact | ATS-Verified | 98.24 % | 279/284 | Yes | https openmetrics github |
+| Stacker | Compact | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Ledger | Compact | ATS-Verified | 98.94 % | 281/284 | Yes | https |
+| Primer | Compact | ATS-Verified | 98.24 % | 279/284 | Yes | https openmetrics github |
+| Mono | Compact | ATS-Verified | 98.24 % | 279/284 | Yes | https openmetrics github |
+| Studio | Statement | Best for human review | 98.94 % | 281/284 | Yes | https |
+| Panorama | Statement | Best for human review | 98.94 % | 281/284 | Yes | https |
+| Duet | Statement | Best for human review | 98.94 % | 281/284 | Yes | https |
+| Atlas | Statement | Best for human review | 98.94 % | 281/284 | Yes | https |
 
 The same table is in `results/results.csv` and `results/results.json`
-(with `expected_tokens`, `matched_tokens`, `coverage_pct`, `order_preserved`,
+(`expected_tokens`, `matched_tokens`, `coverage_pct`, `order_preserved`,
 `missing_tokens` per template). Both files are written by `npm run study`,
-not edited by hand.
+not edited by hand. These figures are identical to the ones reported on the
+study page (run of 2026-08-22).
 
 ### Where the missing tokens come from
 
@@ -64,60 +68,68 @@ not edited by hand.
   includes the scheme of the three links in the resume (LinkedIn, portfolio,
   GitHub project); the templates display links as clean addresses without the
   scheme. The address text itself is extracted intact in every template.
-- `openmetrics`, `github` (missing in Vector, Stacker, Primer, Mono): in these
-  four dense compact layouts the project name and its URL sit on one line and
-  the extraction joins them with no space, producing a single token
+  98.94 % = 281 of 284 token occurrences found.
+- `openmetrics`, `github` (missing in Vector, Primer and Mono): in these
+  three dense compact layouts the project name and its URL sit on one line
+  and the extraction joins them with no space, producing a single token
   `openmetricsgithub` (see `data/extracted/vector.txt`, line 34:
   `OpenMetricsgithub.com/jordanavery/openmetrics`). The multiset comparison
-  therefore counts both `openmetrics` and `github` as missing. No job title,
-  employer, date, skill or bullet token is missing in any template.
+  therefore counts both `openmetrics` and `github` as missing.
+  98.24 % = 279 of 284. The study page describes this loss as a line-wrap
+  split of the GitHub URL; the extracted text shows the mechanism more
+  precisely as a missing space between the project name and the URL. The two
+  tokens lost are the same.
+- No job title, employer, date, skill or bullet token is missing in any
+  template.
 
-### How these numbers relate to the published page
+## Two runs, why they differ
 
-The page reports the gate run of **2026-08-22**: 284 expected tokens,
-98.94 % on 26 templates and 98.24 % on three compact templates (Vector,
-Primer, Mono). This repository cannot restate those exact figures as its own
-output, for two reasons that we state rather than hide:
+This repository bundles two measurement runs. Both use the same 29 templates,
+the same extraction (unpdf 1.7.0) and the same comparison code; they differ
+only in the sample resume.
 
-1. **The sample resume was shortened on 2026-08-23** (one day after the
-   published run) so that the demo resume fits on one page in all six site
-   languages: the summary lost one clause, one experience bullet and one
-   project bullet were trimmed. The canonical serialization went from 284 to
-   266 tokens. With the same misses, 3/266 gives 98.87 % (instead of
-   281/284 = 98.94 %) and 5/266 gives 98.12 % (instead of 279/284 = 98.24 %).
-   Both fixtures are included: `data/sample-resume.json` (current, used for
-   the bundled PDFs) and `data/sample-resume-2026-08-22.json` (published run);
-   `npm test` checks that the latter still serializes to 284 tokens.
-2. **The bundled PDFs are from the gate run of 2026-10-16**, the most recent
-   run whose artifacts were kept (the gate overwrites its artifacts on every
-   run, and the 2026-08-22 PDFs were not archived). On this run a fourth
-   compact template, Stacker, shows the same name/URL fusion as Vector,
-   Primer and Mono, so four templates measure 98.12 % rather than three.
+| | Main run (`data/`, `results/`) | Second run (`data/latest-fixture/`, `results/latest-fixture/`) |
+|---|---|---|
+| Sample resume | 2026-08-22 fixture (the one behind the published page) | Current fixture, shortened on 2026-08-23 |
+| Expected tokens | 284 | 266 |
+| PDFs rendered | 2026-11-17 (catalog at its current revision) | 2026-10-16 (production gate run) |
+| Reading order | 29/29 | 29/29 |
+| Coverage | 98.94 % on 26 templates, 98.24 % on 3 (Vector, Primer, Mono) | 98.87 % on 25 templates, 98.12 % on 4 (Vector, Stacker, Primer, Mono) |
+| Missing tokens | `https` x3 everywhere; `openmetrics`, `github` in the 3 dense layouts | `https` x3 everywhere; `openmetrics`, `github` in the 4 dense layouts |
 
-What is unchanged between the two runs: 29/29 reading order, every template
-above the 95 % threshold, the same three `https` misses everywhere, and no
-loss of resume prose. The page also describes the compact-layout losses as a
-line-wrap split of the GitHub URL; the extracted text in this repository
-shows the mechanism more precisely as a missing space between the project
-name and the URL. The tokens lost are the same two.
+What changed on 2026-08-23: one clause of the summary, one experience bullet
+and one project bullet were trimmed so that the demo resume fits on one page
+in all six site languages (compare `data/sample-resume.txt` with
+`data/latest-fixture/sample-resume.txt`). The misses are the same kind in
+both runs, but the denominator changed (284 to 266), so the percentages
+moved: 3/266 gives 98.87 % instead of 281/284 = 98.94 %, and 5/266 gives
+98.12 % instead of 279/284 = 98.24 %. With the shorter project line, one
+more compact template (Stacker) renders the project name and URL on a single
+line and shows the same fusion as Vector, Primer and Mono.
+
+The original PDFs of the 2026-08-22 run were not archived (the gate
+overwrites its artifacts on every run). The main run therefore re-renders
+the 2026-08-22 fixture with the catalog at its current revision; the
+template registry was last changed on 2026-08-25 (density presets, no
+layout change) and the results are identical to the published ones, token
+for token.
 
 ## Method
 
-1. **Render.** The sample resume (`data/sample-resume.json`, a fictional
-   senior product manager; every section type the builder supports,
-   including a current role, skill groups with and without names,
-   certifications, a project with a URL, languages and a custom section) is
-   rendered through each template by the production print route and
-   converted to PDF by the production headless-Chromium engine, the same path
-   that produces customer downloads. US conventions (Letter paper,
-   "March 2022" dates; five compact templates use "Mar 2022"). The 29 PDFs
-   are in `data/pdf/`. This step is **not** reproducible from this
-   repository: it needs the Wynhire application. Everything after it is.
-   The only change made to the gate artifacts before publication is the
-   PDF `Title` metadata field, which carried the internal render URL and a
-   short-lived signed token; it was rewritten with pdf-lib (content streams
-   untouched; `npm test` confirms the extraction is identical to the one the
-   production code recorded on the original files).
+1. **Render.** The sample resume (a fictional senior product manager; every
+   section type the builder supports, including a current role, skill groups
+   with and without names, certifications, a project with a URL, languages
+   and a custom section) is rendered through each template by the production
+   print route and converted to PDF by the production headless-Chromium
+   engine, the same path that produces customer downloads. US conventions
+   (Letter paper, "March 2022" dates; five compact templates use "Mar 2022").
+   This step is **not** reproducible from this repository: it needs the
+   Wynhire application. Everything after it is. The only change made to the
+   rendered files before publication is the PDF `Title` metadata field, which
+   carried the internal render URL and a short-lived signed token; it was
+   rewritten with pdf-lib (content streams untouched; `npm test` confirms the
+   extraction is identical to the one the production code recorded on the
+   original files).
 2. **Extract.** The text layer of each PDF is extracted with unpdf 1.7.0
    (`extractText`, pages merged). Output: `data/extracted/<template>.txt`.
 3. **Expected text.** The source resume is serialized to linear plain text
@@ -149,16 +161,18 @@ Requires Node.js 20 or later.
 
 ```sh
 npm install
-npm run study    # extracts the 29 PDFs, writes results/results.csv and results/results.json
+npm run study    # both runs: extracts the PDFs, writes results/ and results/latest-fixture/
 npm test         # checks the port against the production code's recorded output
 ```
 
-`npm run study` re-extracts the text from `data/pdf/*.pdf`, recomputes every
-number in the table above and exits with code 1 if any template fails the
-gate. `npm test` verifies that `src/parity.mjs` (a self-contained port of
-the production parity code) reproduces, byte for byte, the production
-serialization, the per-template expected texts, the heading sequences and
-the parity reports recorded in `data/reference/production-parity.json`.
+`node src/measure.mjs main` or `node src/measure.mjs latest-fixture` runs a
+single run. `npm run study` re-extracts the text from the bundled PDFs,
+recomputes every number in the tables above and exits with code 1 if any
+template fails the gate. `npm test` verifies that `src/parity.mjs` (a
+self-contained port of the production parity code) reproduces, byte for
+byte, the production serialization, the per-template expected texts, the
+heading sequences and the parity reports recorded in
+`data/production-parity.json` and `data/latest-fixture/production-parity.json`.
 
 ## What this study does not show
 
@@ -168,34 +182,37 @@ the parity reports recorded in `data/reference/production-parity.json`.
   engine" is evidence, not proof, for every engine.
 - **One sample resume.** Every number comes from one two-page fixture. A
   different resume (very long URLs, unusual Unicode, many pages) could show
-  different residuals.
+  different residuals; the second run above is a small illustration of how
+  the residual moves with the fixture.
 - **No commercial ATS was tested.** ATS vendors do not expose their parsers
   for benchmarking. What is measured is the layer all of them depend on: the
   text extractable from the PDF.
 - **Parsing, not ranking.** The gate measures whether text survives the trip
   into an ATS. It says nothing about how any employer's ranking, filtering
   or searches treat that text.
-- **A snapshot.** The numbers describe the catalog as rendered on
-  2026-10-16. Templates and rendering engines change; the gate re-runs on
-  every change.
+- **A snapshot.** The numbers describe the catalog as rendered on the dates
+  above. Templates and rendering engines change; the gate re-runs on every
+  change.
 
 ## Repository layout
 
 ```
 data/
-  sample-resume.json             source resume used for the bundled PDFs (shortened 2026-08-23)
+  sample-resume.json             2026-08-22 fixture (published study), 284 tokens
   sample-resume.txt              its canonical plain-text serialization (production output)
-  sample-resume-2026-08-22.json  fixture behind the published page (284 tokens)
-  sample-resume-2026-08-22.txt   its serialization
   templates.json                 29 templates: id, name, family, badge, layout, section order, date style
-  pdf/<template>.pdf             29 rendered PDFs (production pipeline, 2026-10-16)
+  pdf/<template>.pdf             29 PDFs re-rendered on 2026-11-17 from that fixture
   extracted/<template>.txt       text layer of each PDF (written by npm run study)
   expected/<template>.txt        expected text per template (production code)
-  reference/production-parity.json  heading sequences and parity reports from the production code
+  production-parity.json         heading sequences and parity reports from the production code
+  latest-fixture/                second run: current fixture (266 tokens), gate run of 2026-10-16
+    sample-resume.json, sample-resume.txt, pdf/, extracted/, expected/, production-parity.json
 results/
-  results.csv, results.json      per-template results (written by npm run study)
+  results.csv, results.json      main run (written by npm run study)
+  latest-fixture/results.csv, results.json   second run
 src/
   parity.mjs                     serialization, tokenizer, coverage and order checks
+  runs.mjs                       the two runs (paths and labels)
   measure.mjs                    npm run study
   selftest.mjs                   npm test
 ```
