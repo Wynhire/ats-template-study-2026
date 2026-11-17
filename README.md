@@ -1,5 +1,7 @@
 # ATS template study 2026
 
+[![reproduce](https://github.com/Wynhire/ats-template-study-2026/actions/workflows/test.yml/badge.svg)](https://github.com/Wynhire/ats-template-study-2026/actions/workflows/test.yml) [![data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA) [![code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+
 Data and code behind the Wynhire study *"We Ran Our 29 Templates Through Our
 Extraction Gate: Here Is the Exact Text the Robot Sees"*
 (https://wynhire.com/blog/ats-template-study-2026).

@@ -1,0 +1,25 @@
+name: reproduce
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    - cron: "0 6 1 * *"   # monthly: the numbers must still reproduce
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - name: Self-test against the production reference
+        run: npm test
+      - name: Re-measure the bundled PDFs
+        run: npm run study
+      - name: Results must match the committed ones
+        run: git diff --exit-code -- results/
