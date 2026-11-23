@@ -261,6 +261,10 @@ BibTeX:
 
 GitHub's "Cite this repository" button reads `CITATION.cff`, which carries the same DOI.
 
+A 7-page report of the study (method, full results table, limitations, data
+availability) is archived on Zenodo as a publication:
+[10.5281/zenodo.24474864](https://doi.org/10.5281/zenodo.24474864).
+
 ## License
 
 - Code (`src/`, `package.json`): MIT, see `LICENSE`.
