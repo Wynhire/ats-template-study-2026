@@ -5,6 +5,14 @@ authors:
   - name: "Wynhire"
 date-released: 2026-11-17
 version: "1.0.0"
+doi: 10.5281/zenodo.24469317
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.24469317
+    description: "Zenodo archive of version 1.0.0"
+  - type: doi
+    value: 10.5281/zenodo.24469316
+    description: "Zenodo concept DOI (all versions)"
 license: "MIT AND CC-BY-4.0"
 url: "https://wynhire.com/blog/ats-template-study-2026"
 repository-code: "https://github.com/wynhire/ats-template-study-2026"

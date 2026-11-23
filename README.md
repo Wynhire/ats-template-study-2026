@@ -1,6 +1,6 @@
 # ATS template study 2026
 
-[![reproduce](https://github.com/Wynhire/ats-template-study-2026/actions/workflows/test.yml/badge.svg)](https://github.com/Wynhire/ats-template-study-2026/actions/workflows/test.yml) [![data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA) [![code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![reproduce](https://github.com/Wynhire/ats-template-study-2026/actions/workflows/test.yml/badge.svg)](https://github.com/Wynhire/ats-template-study-2026/actions/workflows/test.yml) [![data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA) [![code: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE) [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24469317.svg)](https://doi.org/10.5281/zenodo.24469317)
 
 Data and code behind the Wynhire study *"We Ran Our 29 Templates Through Our
 Extraction Gate: Here Is the Exact Text the Robot Sees"*
@@ -233,6 +233,33 @@ src/
 - E1, How an ATS Reads Your Resume: We Tested 29 Templates: https://youtu.be/pGmppvPxRNs
 - E2, Job Posting Keywords: What ATS Software Looks For (Real Demo): https://youtu.be/2Jw1Araf6zQ
 - E3, Resume Layouts That Lose Lines in an ATS: Real Test Files: https://youtu.be/-_5OWAWou9Q
+
+## Data archive and citation
+
+The data of this repository is archived on Zenodo under the DOI
+[10.5281/zenodo.24469317](https://doi.org/10.5281/zenodo.24469317) (concept DOI for all versions:
+[10.5281/zenodo.24469316](https://doi.org/10.5281/zenodo.24469316)).
+
+Plain text:
+
+> Wynhire (2026). ATS template study 2026: text-extraction fidelity of 29
+> resume templates [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24469317
+
+BibTeX:
+
+```bibtex
+@dataset{wynhire_ats_template_study_2026,
+  author    = {Wynhire},
+  title     = {ATS template study 2026: text-extraction fidelity of 29 resume templates},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {1.0.0},
+  doi       = {10.5281/zenodo.24469317},
+  url       = {https://doi.org/10.5281/zenodo.24469317}
+}
+```
+
+GitHub's "Cite this repository" button reads `CITATION.cff`, which carries the same DOI.
 
 ## License
 
